@@ -1,6 +1,20 @@
 public class cercles extends Dessin{
 public Double rayon;
 public Point center;
+
+    public cercles(String name,Point center,Double rayon) {
+        super(name);
+        this.rayon = rayon;
+        this.center = center;
+    }
+
+    @Override
+    public void show() {
+        System.out.println(tab()+name+"rayon"+this.rayon+"Center"+this.center);
+
+
+    }
+
     @Override
     public Double surface() {
 
@@ -14,6 +28,11 @@ public Point center;
 
     @Override
     void update(Observable observable) {
-        System.out.println("cercles changed");
+        this.center=new Point(0,0);
+        System.out.println("++++cercles changed+++++");
+        System.out.println("rayon"+this.rayon);
+        System.out.println("Center"+this.center);
     }
+
+
 }
