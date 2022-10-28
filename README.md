@@ -19,10 +19,13 @@ Nous introduisons un Objet Paramétrage dont l’état est défini par attributs
 
 #Tests du modèle
 Test Design pattern Composite
+
 ![TT](https://user-images.githubusercontent.com/86124754/198733734-a8fd1aaa-3d36-4227-9680-8b414a7b6d49.PNG)
 
 Résutat
+
 ![ttt](https://user-images.githubusercontent.com/86124754/198734240-1071a8a5-1b1b-4dd2-a243-5f29426571c6.PNG)
+
 Test Design les fonction calculeSurface et calculeprémitre.
 
 ![tttt](https://user-images.githubusercontent.com/86124754/198734802-5ee33145-1a26-4648-bea2-4c0f5bbc84da.PNG)
